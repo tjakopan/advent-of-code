@@ -1,4 +1,4 @@
-package year2021
+package year2021.day01
 
 import readLinesAsInt
 
@@ -12,7 +12,7 @@ fun day01Puzzle2(input: List<Int>): Int =
   )
 
 fun main() {
-  val input = readLinesAsInt("year2021/day01")
+  val input = readLinesAsInt("year2021/day01/input")
   println(day01Puzzle1(input))
   println(day01Puzzle2(input))
 }
