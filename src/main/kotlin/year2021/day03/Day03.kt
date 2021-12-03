@@ -16,7 +16,7 @@ fun gamma(input: List<String>): Int {
       if (char == '1') counts[i]++
     }
   }
-  val halfInputSize = input.size / 2
+  val halfInputSize = (input.size + 1) / 2
   return counts.map {
     when {
       it >= halfInputSize -> '1'
